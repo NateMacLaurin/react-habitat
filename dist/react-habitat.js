@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("React"), require("ReactDOM"));
+		module.exports = factory(require("react"), require("react-dom"));
 	else if(typeof define === 'function' && define.amd)
-		define(["React", "ReactDOM"], factory);
+		define(["React", "react-dom"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactHabitat"] = factory(require("React"), require("ReactDOM"));
+		exports["ReactHabitat"] = factory(require("react"), require("react-dom"));
 	else
-		root["ReactHabitat"] = factory(root["React"], root["ReactDOM"]);
+		root["ReactHabitat"] = factory(root["react"], root["react-dom"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_9__, __WEBPACK_EXTERNAL_MODULE_10__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
