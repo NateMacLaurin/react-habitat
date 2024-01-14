@@ -1,11 +1,3 @@
-![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/react-habitat/master/dd-logo.png)
-
-# React Habitat ![Build Status](https://travis-ci.org/DeloitteDigitalAPAC/react-habitat.svg?branch=master) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-
-**v1.0 Released** 🎉 - Please see [migration guides](https://github.com/DeloitteDigitalAPAC/react-habitat/wiki).
-
-> *Looking for the [v0.4 docs](https://github.com/DeloitteDigitalAPAC/react-habitat/tree/4e82be35a1d9b5f2c95d7957f277dbbd1ca89b64#react-habitat-)?*
-
 ## React Habitat <3 Your CMS
 
 React Habitat is designed for integrating React with your CMS using the DOM as the interface. It's based of some basic
@@ -82,17 +74,11 @@ framework isn't really going to bring many benefits to you. However, you are def
 - [License information](#license-bsd-3-clause)
 - [Change log](https://github.com/DeloitteDigitalAPAC/react-habitat/blob/master/CHANGELOG.md)
 
-
 ## Compatibility
 
 - Supports Browsers IE9+ and all the evergreens.
 - ES5, ES6/7 & TypeScript
-- React v15 and up
-
-Polyfills
-
-- IE9-11 Will require a [Promise Polyfill](http://babeljs.io/docs/usage/polyfill/)
-- IE9-10 Will require a [Object.assign Polyfill](http://babeljs.io/docs/usage/polyfill/)
+- React v16 and up
 
 We highly recommend you use something like [WebPack](https://webpack.github.io/) or [Browserify](http://browserify.org/) when using this framework.
 
@@ -858,17 +844,6 @@ class MyApp extends ReactHabitat.Bootstrapper {
 
 Please don't hesitate to raise an issue through GitHub or open a pull request to show off your fancy pants coding skills - we'll really appreciate it!
 
-## Key Contributors
-
-* @jenna_salau
-
-## Who is Deloitte Digital?
-
-**Part Business. Part Creative. Part Technology. One hundred per cent digital.**
-
-Pioneered in Australia, Deloitte Digital is committed to helping clients unlock the business value of emerging technologies. We provide clients with a full suite of digital services, covering digital strategy, user experience, content, creative, engineering and implementation across mobile, web and social media channels.
-
-[http://www.deloittedigital.com/au](http://www.deloittedigital.com/au)
 
 ## LICENSE (BSD-3-Clause)
 Copyright (C) 2017, Deloitte Digital. All rights reserved.
